@@ -1,20 +1,53 @@
 h1
 {
   color: red;
+  background-color: rgb(153, 255, 153);
+  font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
   text-align: center;
-  font-size: 25pt;
 }
 
-h2, h3
+p
+{
+  font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
+  color: rgb(102, 0, 0);
+}
+
+p.fontSize
+{
+  font-size: 16pt;
+}  
+
+#textSize
+{
+  font-size: 40pt;
+}
+
+ul
+{
+  display: table;
+  margin: 0 auto;
+  font-size: 14pt;
+}
+
+h2
 {
   font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
   text-align: center;
   color: rgb(102, 0, 0);
+  font-size: 18pt;
+}
+
+h3
+{
+  font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
+  text-align: center;
+  color: rgb(102, 0, 0);
+  font-size: 14pt;
 }
 
 body
 {
+  font-family: "Trebuchet MS". "Comic Sans MS", Monospace;
   text-align: center;
 }
-
 
