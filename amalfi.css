@@ -1,7 +1,16 @@
-body, h1
+body
 {
   font-family: "Trebuchet MS", "Comic Sans MS", monospace;
   text-align: center;
   color: rgb(153, 0, 76);
-  font-size: 14pt;
+  font-size: 16pt;
+}
+
+h1
+{
+  font-family: "Trebuchet MS", "Comic Sans MS", monospace;
+  text-align: center;
+  color: rgb(153, 0, 76);
+  background-color: silver;
+  font-size: 30pt;
 }
