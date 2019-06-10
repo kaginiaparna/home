@@ -1,53 +1,99 @@
+/*css formatting for heading 1*/
 h1
 {
+  /*setting the heading 1 font colour and background colour*/
   color: red;
-  background-color: rgb(153, 255, 153);
-  font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
+  /*indicating the font family for the heading 1 text and centering the text on the page*/
+  font-family: "Comic Sans MS", Monospace;
   text-align: center;
 }
 
+/*css formatting for adding a grey background color to the top navigation*/
+.topnav 
+{
+  background-color: grey;
+  overflow: hidden;
+}
+
+/*css formatting for styling the links inside the navigation bar*/
+.topnav a 
+{
+  float: center;
+  color: white;
+  text-align: center;
+  padding: 25pt;
+  text-decoration: none;
+  font-size: 20pt;
+}
+
+/*css formatting for changing the color of links on hover in the navigation bar*/
+.topnav a:hover 
+{
+  background-color: white;
+  color: rgb(102, 0, 0);
+}
+
+/*css formatting for the paragraphs*/
 p
 {
+  /*indicating a font family and rext colour for the paragraphs*/
   font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
   color: rgb(102, 0, 0);
 }
 
+/*class for the paragraphs*/
 p.fontSize
 {
+  /*setting the font size for all paragraphs assigned with the class 'fontSize' in HTML code*/
   font-size: 16pt;
 }  
 
+/*ID for heading 2 text*/
 #textSize
 {
+  /*setting the font size as 40pt for heading 2*/
   font-size: 40pt;
 }
 
+/*css formatting for unordered lists*/
 ul
 {
+  /*centering the list and setting the list's font size*/
   display: table;
   margin: 0 auto;
   font-size: 14pt;
 }
 
+/*css formatting for heading 2*/
 h2
 {
+  /*indicating a font family for the heading 2 text*/
   font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
+  /*centering the heading 2 text on the page*/
   text-align: center;
+  /*setting the font colour and size for the heading 2 text*/
   color: rgb(102, 0, 0);
   font-size: 18pt;
 }
 
+/*css formatting for heading 3*/
 h3
 {
+  /*indicating a font family for the heading 3 text*/
   font-family: "Trebuchet MS", "Comic Sans MS", Monospace;
+  /*centering the heading 3 text on the page*/
   text-align: center;
+  /*setting the font colour and size for the heading 3 text*/
   color: rgb(102, 0, 0);
   font-size: 14pt;
 }
 
+/*css formatting for body*/
 body
 {
+  /*indicating a font family for the body text*/
   font-family: "Trebuchet MS". "Comic Sans MS", Monospace;
+  /*centering the body text on the page*/
   text-align: center;
+  background-color: rgb(236, 255, 216);
 }
-
